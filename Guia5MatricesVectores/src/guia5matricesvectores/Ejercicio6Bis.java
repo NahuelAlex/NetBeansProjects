@@ -39,7 +39,7 @@ public class Ejercicio6Bis {
             for (int j = 0; j < cuadrado.length; j++) {
                 sumai=sumai +cuadrado[i][j]; 
             }
-            System.out.println("La suma de la fila "+i+" es: "+sumai);
+           System.out.println("La suma de la fila "+i+" es: "+sumai);
         }
         //suma columnas
         for (int j = 0; j < cuadrado.length; j++) {
@@ -67,7 +67,7 @@ public class Ejercicio6Bis {
             i=i-1;
         }
         System.out.println("La suma de la diagonal 2 es: " + sumadiagonal2);
-        
+         
         if (sumaj=sumai && sumadiagonal1=sumadiagonal2){
             System.out.println("Es un cuadrado magico");   
         }else{
