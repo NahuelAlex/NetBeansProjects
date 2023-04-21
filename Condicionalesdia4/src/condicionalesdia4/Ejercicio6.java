@@ -38,9 +38,7 @@ public class Ejercicio6 {
         System.out.println();
         System.out.println("INGRESE UNA OPCION");
         option=leer.nextInt();
-      
-        
-        
+
         switch (option){
           case 1:
               System.out.println("La suma de los numeros es: "+(num1+num2));
@@ -60,9 +58,8 @@ public class Ejercicio6 {
               resp = resp.toUpperCase();
               if (resp.equals("S")){
                   System.out.println("SALIR...");
-              }
-            
-      }
+                }  
+            }
         }
         while ((resp.equals("N")) || option !=5);
     }

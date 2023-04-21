@@ -19,24 +19,20 @@ Nota: investigar función equals() y como convertir números a String.
 public class EjercicioExtra12 {
 
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
-        int i,f,j,k;
-        for (i=0; i<=2; i++){
-            System.out.print(i);
-        System.out.println("");
-            for (f=0; f<=9; f++){
-                System.out.println("");
-                for (j=0; j<=2; j++){
-                    System.out.println(j);
-                }
-                System.out.println(f);
-            }
-        System.out.println("");
-               for (k=0; k<=2; k++){
-                   System.out.println(k);
-               }
-           }
-           
+        for (int i = 1; i <= 999; i++) {
+    if (i < 10) {
+        System.out.println("00" + i);
+    } else if (i < 100) {
+        System.out.println("0" + i);
+    } else {
+        System.out.println(i);
+    }
+    }
+
+
+
+
+
         }
     }
 

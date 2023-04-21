@@ -22,6 +22,6 @@ public class Ejercicio5 {
             suma=suma+num;
         }
        while (suma <= limite);
-    }
-    
+        System.out.println("Te pasaste limite superado " + suma);
+    } 
 }
