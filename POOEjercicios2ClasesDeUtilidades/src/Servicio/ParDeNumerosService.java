@@ -40,10 +40,11 @@ public class ParDeNumerosService {
         menor = Math.round(menor);
         return Math.pow(menor, menor);
     }
+
     /*Método calculaRaiz, para calcular la
  * raíz cuadrada del menor de los dos valores. Antes de calcular la raíz cuadrada se debe obtener el
  * valor absoluto del número.*/
-    public double calcularRaiz(ParDeNumeros pdn){
+    public double calcularRaiz(ParDeNumeros pdn) {
         double mayor = devolverMayor(pdn);
         double menor = 0;
         if (mayor == pdn.getNumero1()) {
@@ -51,7 +52,7 @@ public class ParDeNumerosService {
         } else {
             menor = pdn.getNumero2();
         }
-        
+
         menor = Math.abs(menor);
         return Math.sqrt(menor);
     }
